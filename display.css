@@ -1,0 +1,22 @@
+.box{
+    height: 60px; width: 60px;
+    display: inline-block;
+}
+
+#first{
+    background-color: red;
+}
+#second{
+    background-color:green;
+}
+#third{
+    background-color: blue;
+}
+
+a{
+    background-color:darkgoldenrod;
+    width: 100px; height: 100px;
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+}

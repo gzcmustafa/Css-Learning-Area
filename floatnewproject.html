@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: purple;
+            height: 140px;
+        }
+        .header h1{
+           color: orange;
+           size: 28px;
+           padding: 50px 15px ;
+        }
+        .footer h1{
+           color: orange;
+           size: 28px;
+           padding: 50px 15px ;
+        }
+
+        .footer{
+            background-color: purple;
+            height: 140px;
+
+        }
+        
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .div__right{
+            float: left;
+           width: 75%;
+        }
+        .div__left{
+            float: left;
+            width: 25%;
+            padding-left: 0;
+            margin-right: 0px;
+            
+        }
+        .div__left ul{
+         list-style-type: none;
+         padding-left: 0;
+         margin-right: 0px;
+        }
+        .div__left li{
+            background-color: purple;
+            width: 40%;
+            margin-bottom: 15px;
+            padding: 15px 15px;
+            margin-left: 0px;
+        }
+       
+        
+     
+        
+        
+    </style>
+</head>
+<body>
+    <section class="header"><h1>Header</h1></section>
+    <section class="main clearfix">
+            <div class="div__left">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRİPT</li>
+                </ul>
+            </div>
+
+            <div class="div__right">
+             <h3>Komple Web Geliştirme</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam maiores consectetur pariatur corrupti ipsa facere consequatur cumque omnis explicabo tenetur sint animi suscipit, nam delectus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam obcaecati quos deserunt architecto quaerat voluptatem rerum, fuga nam perferendis optio ratione, molestiae quibusdam explicabo hic quidem dolorem consequuntur tempora voluptas non dolor modi. Ex, corporis molestiae.</p>
+            </div>
+    </section>
+    <section class="footer"><h1>Footer</h1></section>
+    
+
+
+</body>
+</html>

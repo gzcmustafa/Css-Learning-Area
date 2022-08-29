@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         .clearfix::after{  /* clearfix sınıfından sonra block bir elemant oluştur içi boş olsun ve clear both ile akışı düzelt */
+            content: "";
+            display: block;
+            clear: both;
+
+        }
+
+        #container{
+            background-color: greenyellow;
+            
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+            float: right;
+                        
+        }
+
+        #box1{
+            float: left;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="container" class="clearfix">
+        <div class="box" id="box1">kutu 1</div>
+        <div class="box" id="box2">kutu 2</div>
+        <div class="box" id="box3">kutu 3</div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nisi velit a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid, recusandae fuga, doloremque exercitationem nesciunt deleniti architecto repudiandae a natus numquam sapiente aperiam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo eaque expedita laudantium magni consectetur nesciunt aperiam, illum omnis rem sint, repellendus odio tenetur debitis repellat iusto nisi deleniti, asperiores ullam doloribus ut voluptas earum.</p>
+
+</body>
+</html>
